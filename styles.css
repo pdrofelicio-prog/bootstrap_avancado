@@ -1,0 +1,120 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: #121212;
+}
+
+
+.navbar-brand {
+    color: #1DB954;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1DB954;
+}
+
+.navbar .form-control {
+    border-radius: 50px;
+}
+
+
+.hero {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.hero .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .btn {
+    background-color: #1DB954;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.section-title {
+    color: #121212;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.playlist-carousel .card {
+    border: none;
+}
+
+.playlist-carousel .card img {
+    border-radius: 5px;
+}
+
+.music-player {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.music-player .btn {
+    color: #e1e1e1;
+}
+
+.music-player .progress {
+    background-color: #fafafa;
+}
+
+.music-player .progress-bar {
+    background-color: #1773e3;
+}
+
+.music-player .volume-controls input[type=range] {
+    width: 100px;
+}
+
+.library .list-group-item {
+    cursor: pointer;
+}
+
+.library .tab-content .card {
+    border: none;
+}
+
+.library .tab-content .card img {
+    border-radius: 5px;
+}
+
+.profile img {
+    border: 5px solid #1DB954;
+}
+
+.profile h3 {
+    color: #1DB954;
+}
+
+.profile .list-group-item {
+    border: none;
+}
+
+footer {
+    background-color: #121212;
+}
+
+footer a {
+    color: #1DB954;
+}
+
+footer a:hover {
+    color: #9B51E0;
+}
